@@ -11,6 +11,7 @@ work_path <- setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 # create data/dataframes for Lineweaver-Burk, Eadie-Hofstee and Hanes-Woolf plots
 # competitive inhibition
+# creates random datasets, including a file with all the answers to the datasets
 
 create_data <- function(km) {
   
